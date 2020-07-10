@@ -1,8 +1,9 @@
-# standards
+# UI standards
 
 ### Note:
 Suggestions for improving our design and coding standards are more than welcome. But please bring it up in a forum before it's implemented.
-This can save a lot of time for developer and reviewer. Also this will ensure consistency in the codebase.
+This can save a lot of time for developer and reviewer. Also this will ensure consistency in the codebase. 
+PS: This doesn't include the lint specific standards. We need to brainstorm and come up a lint rule set that can be used across the company.
 
 ## Table of Content
 - [Development Process](#development-process)
