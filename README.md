@@ -184,7 +184,7 @@ React-Redux with typescript is our state management framework, when necessary.
 
 ***Do's***
 - Ensure all actions, types, reducer functions, payloads are typed throughout. `any` should be avoided.
-- Place all `compose` code within the component file. That is, `mapStateToProps`, `mapDispatchToProps`, store wrapped component export etc, should exist within the main component file.
+- Place all `compose` code within the component file. That is, `useSelector`, `useDispatch`, store wrapped component export etc, should exist within the main component file.
 - The component which is going to be glued to the store should be unaware of redux. Make sure the underlying component is completely detached from who is passing props to it. This is especially useful if we ever want to detach from redux and promotes loosely coupled code.
 
  - Define all the types, reducers and actions under `This needs to be updated` folder. Create separate file for each page.
